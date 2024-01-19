@@ -1,0 +1,48 @@
+body {
+  background-color: cadetblue;
+}
+
+header {
+  background-color: dimgray;
+  text-align: center;
+  border: 3px solid black;
+}
+
+nav {
+  font-size: x-large;
+  cursor: grab;
+}
+
+main {
+  background-color: rgb(138, 138, 245);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-box1 {
+  background-color: beige;
+  border: red;
+  border-style: dotted;
+  padding: 10px;
+}
+
+.flex-box2 {
+  background-color: azure;
+  border: purple;
+  border-style: solid;
+  padding: 30px;
+}
+.flex-box3 {
+  background-color: aliceblue;
+  border: red;
+  border-style: double;
+  padding: 30px;
+}
+footer {
+  background-color: rgb(85, 89, 89);
+  font-size: smaller;
+  border-style: double;
+}
